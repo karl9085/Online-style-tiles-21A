@@ -16,23 +16,15 @@ use the fonts in other ways in the font hierarchy etc. */
 /* change / delete some of these - note: all variables are listed twice */
 
 :root {
-  --bg-color: red;
-  --link-color: green;
-  --link-hover-color: blue;
-  --color-4: hotpink;
-  --color-5: rebeccapurple;
-
-  --primary-font: "Open Sans", sans-serif;
-  --secondary-font: "Droid Serif", serif;
-  --main-text-color: #000;
-
-  --white-space: 1rem;
-
-  --bg-color: #000;
+  --bg-color: #b9aa9b;
   --link-color: #000;
+  --button-color: #bfc9bf;
   --link-hover-color: #000;
-  --color-4: #000;
-  --color-5: #000;
+  --color-1: #efe9e2;
+  --color-2: #e4aea3;
+  --color-3: #ae8d81;
+  --color-4: #d1c5c3;
+  --color-5: #f0d5c5;
 
   --primary-font: sans-serif;
   --secondary-font: serif;
@@ -123,15 +115,15 @@ ul li:last-child {
 }
 
 .color-swatch-1 {
-  background-color: var(--bg-color);
+  background-color: var(--color-1);
 }
 
 .color-swatch-2 {
-  background-color: var(--link-color);
+  background-color: var(--color-2);
 }
 
 .color-swatch-3 {
-  background-color: var(--link-hover-color);
+  background-color: var(--color-3);
 }
 
 .color-swatch-4 {
@@ -184,7 +176,7 @@ ul li:last-child {
 button {
   padding: 1rem;
   border-radius: 4px;
-  background: var(--link-color);
+  background: var(--button-color);
   text-align: center;
   text-decoration: none;
   font: bold 1.25em/1 var(--primary-font);
@@ -198,7 +190,7 @@ button {
 }
 
 .secondary-button {
-  background: var(--color-5);
+  background: var(--button-color);
 }
 
 button:focus,
