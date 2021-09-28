@@ -4,6 +4,8 @@
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
 @import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Montserrat+Alternates:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Montserrat+Alternates:wght@300&family=Pontano+Sans&display=swap");
 
 * {
   box-sizing: border-box;
@@ -50,6 +52,15 @@ footer {
   max-width: 1300px;
   margin: 0 auto;
   padding: calc(2 * var(--white-space));
+}
+
+header,
+h1 {
+  text-align: center;
+}
+
+header h2 {
+  font-family: "Josefin Slab", serif;
 }
 
 .full-width {
@@ -108,6 +119,12 @@ ul {
   margin-right: 5vw;
   height: 15vw;
   width: 20%;
+  color: rgb(0, 0, 0);
+  font-family: "Josefin Slab", serif;
+}
+
+li {
+  padding: 10px;
 }
 
 ul li:last-child {
@@ -183,9 +200,9 @@ button {
   letter-spacing: 1px;
   color: white;
   text-transform: uppercase;
-  text-shadow: 0px -1px 0px #0374a0;
   transition: all 0.2s ease;
   cursor: pointer;
+  font-family: "Josefin Slab", serif;
   /* margin: 0 1rem 0 0; */
 }
 
@@ -226,7 +243,7 @@ button:active {
 }
 
 p.typography-sample {
-  font-family: var(--secondary-font);
+  font-family: "Pontano Sans", sans-serif;
   line-height: 1.5;
   max-width: 960px;
 }
@@ -284,8 +301,8 @@ footer {
   }
 
   .swatches li {
-    margin-right: 3%;
-    height: 10vw;
+    margin-right: 1%;
+    height: 20vw;
     width: 20%;
   }
 
