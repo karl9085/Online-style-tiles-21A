@@ -17,7 +17,7 @@ use the fonts in other ways in the font hierarchy etc. */
 :root {
   --bg-color: #b9aa9b;
   --link-color: #000;
-  --button-color: #bfc9bf;
+  --button-color: #b3bcb6;
   --link-hover-color: #000;
   --color-1: #efe9e2;
   --color-2: #e4aea3;
@@ -139,19 +139,16 @@ ul li:last-child {
 }
 
 .texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(../img/hør.jpg) top left repeat;
 }
 
 .texture-swatch-2 {
-  background: url(../img/subtle_grunge.png) top left repeat;
-}
-
-.texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(../img/paleo-linen-spring-green-36-fabric-3.jpg) top left
+    repeat;
 }
 
 .texture-swatch-3 {
-  background: url(../img/white_paperboard.png) top left repeat;
+  background: url(../img/blue.jpg) top left repeat;
 }
 
 .images ul {
@@ -263,6 +260,7 @@ p[class*="font-details-"] {
 .adjectives ul {
   font-size: 2rem;
   opacity: 0.5;
+  color: #ae8d81;
 }
 
 .adjectives ul {
